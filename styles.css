@@ -23,7 +23,7 @@
 }
 body {
    display: grid;
-   padding-inline: 15px;
+   padding-inline: var(--main-gap);
    gap: var(--main-gap);
    grid-template-rows: auto 1fr auto;
    background: var(--main-color-100);
@@ -164,7 +164,6 @@ body {
 .block-2__card {
    aspect-ratio: 3 / 2;
    background: var(--main-color-400);
-   position: relative;
 }
 
 /* footer styles */
